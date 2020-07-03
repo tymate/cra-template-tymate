@@ -7,9 +7,10 @@
     "template"
   ],
   "description": "",
+  "main": "template.json",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tymate/cra-template-tymate"
+    "url": "https://github.com/tymate/cra-template-tymate.git"
   },
   "license": "MIT",
   "engines": {

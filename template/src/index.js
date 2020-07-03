@@ -1,30 +1,34 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
+import { createGlobalStyle } from 'styled-components';
 import { MargaretProvider } from '@tymate/margaret';
-import { theme } from 'ui';
+import { theme, fontStyles } from 'ui';
 import * as serviceWorker from './serviceWorker';
 import reportWebVitals from './reportWebVitals';
+import 'sanitize.css';
+import 'sanitize.css/typography.css';
+import 'sanitize.css/forms.css';
+
+const GlobalStyles = createGlobalStyle`
+  body {
+    color: ${({ theme }) => theme.text}
+    ${fontStyles.body}
+  }
+`;
 
 ReactDOM.render(
   <React.StrictMode>
-    <MargaretProvider theme={theme}>
-      <App />
-    </MargaretProvider>
-
-
-    
+    <Suspense fallback={<div />}>
+      <MargaretProvider theme={theme}>
+        <GlobalStyles />
+        <App />
+      </MargaretProvider>
+    </Suspense>
   </React.StrictMode>,
   document.getElementById('root'),
 );
 
-// If you want your app to work offline and load faster, you can change
-// unregister() to register() below. Note this comes with some pitfalls.
-// Learn more about service workers: https://cra.link/PWA
 serviceWorker.unregister();
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();

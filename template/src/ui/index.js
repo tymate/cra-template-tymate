@@ -1,3 +1,7 @@
+import { css } from 'styled-components';
+import { media, viewportSizes } from '@tymate/margaret';
+import { keys, toPairs } from 'lodash';
+
 export const theme = {
   text: 'rgba(0, 0, 0, 0.87)',
   textLight: 'rgba(0, 0, 0, 0.6)',

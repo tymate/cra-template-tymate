@@ -1,10 +1,53 @@
-# cra-template
 
-This is the official base template for [Create React App](https://github.com/facebook/create-react-app).
+![src/images/logo.svg](Tymate)
 
-If you don't specify a template (for example, `--template typescript`), this template will be used by default.
+# Tymate - SPA starter pack
 
-For more information, please refer to:
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-- [Getting Started](https://create-react-app.dev/docs/getting-started) – How to create a new app.
-- [User Guide](https://create-react-app.dev) – How to develop apps bootstrapped with Create React App.
+Description here
+
+## Prerequisites
+
+* node >= 10
+* yarn
+
+## 🚀 How to use
+
+```bash
+yarn
+yarn start
+```
+
+## Deploying
+
+Deployments are handled by Netlify.
+* Merging on the staging branch triggers a staging deployment
+* Merging on the master branch triggers a production deployment
+
+## Build status 
+
+| branch  | status |
+|---------|--------|
+| staging |        |
+| master  |        |
+
+## Contributors ✨
+
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- prettier-ignore-start -->
+<!-- markdownlint-disable -->
+
+<!-- markdownlint-enable -->
+<!-- prettier-ignore-end -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+
+
+## License
+
+Copyright © 2020
