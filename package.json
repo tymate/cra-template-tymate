@@ -9,21 +9,29 @@
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/facebook/create-react-app.git",
-    "directory": "."
+    "url": "https://github.com/tymate/cra-template-tymate"
   },
   "license": "MIT",
   "engines": {
     "node": ">=10"
-  },
-  "bugs": {
-    "url": "https://github.com/facebook/create-react-app/issues"
   },
   "files": [
     "template",
     "template.json"
   ],
   "devDependencies": {
-    
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "@tymate/margaret": "^0.3.18",
+    "axios": "^0.19.2",
+    "date-fns": "^2.14.0",
+    "humps": "^2.0.1",
+    "lodash": "^4.17.15",
+    "react-icons": "^3.10.0",
+    "react-modal": "^3.11.2",
+    "react-router-dom": "^5.2.0",
+    "react-use": "^15.3.2",
+    "sanitize.css": "^11.0.1",
+    "styled-components": "^5.1.1"
   }
 }
