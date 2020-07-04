@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "cynthiahenaff",
+      "name": "Cynthia Henaff ",
+      "avatar_url": "https://avatars3.githubusercontent.com/u/26904024?v=4",
+      "profile": "https://github.com/cynthiahenaff",
+      "contributions": [
+        "ideas",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "cra-template-tymate",
+  "projectOwner": "tymate",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
