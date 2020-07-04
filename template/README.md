@@ -1,5 +1,5 @@
 
-![src/images/logo.svg](Tymate)
+![Tymate](src/images/logo.svg)
 
 # Tymate - SPA starter pack
 
@@ -29,7 +29,7 @@ Deployments are handled by Netlify.
 ## Build status 
 
 | branch  | status |
-|---------|--------|
+| ------- | ------ |
 | staging |        |
 | master  |        |
 
