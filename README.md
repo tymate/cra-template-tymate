@@ -6,39 +6,40 @@
 
 # Tymate - SPA starter pack
 
-Single page application starter pack featuring Margaret as well as our commonly used libraries.
+Single page application starter pack featuring Margaret as well as Tymate devs’ commonly used libraries:
 
-* react-router-dom
-* lodash
-* date-fns
-* react-modal
-* react-use
-* react-icons
-* axios
-* humps
-* sanitize.css
-* styled-components
+* [@tymate/margaret](https://tymate.dev)
+* [react-router-dom](https://reactrouter.com/)
+* [lodash](https://lodash.com/)
+* [date-fns](http://date-fns.org/)
+* [react-modal](https://github.com/reactjs/react-modal)
+* [react-use](https://github.com/streamich/react-use)
+* [react-icons](https://react-icons.github.io/react-icons/)
+* [axios](https://github.com/axios/axios)
+* [humps](https://github.com/domchristie/humps)
+* [sanitize.css](https://csstools.github.io/sanitize.css/)
+* [styled-components](https://styled-components.com/)
 
-## Prerequisites
+## 🌱 Prerequisites
 
 * node >= 10
 * yarn
 
-## 🚀 How to use
+## 🚀 Quick start
 
 ```bash
 npx create-react-app my-project-name --template @tymate/cra-template-tymate
 ```
 
-## What's next
+## 📣 What's next
 
-:warning: Edit README.md
+Refer to the created project README
 
-## License
+## ©️ License
 
-MIT
+Apache 2.0
 
-## Contributors ✨
+## ✨ Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
