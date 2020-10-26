@@ -11,9 +11,12 @@
 # Project Name
 
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Description here
+# Tymate - SPA starter pack
+
+Single page application starter pack featuring Margaret as well as Tymate devs’ commonly used libraries.
 
 [Staging](https://)
 • [Production](https://)
@@ -44,27 +47,32 @@ yarn start
 
 Your site is now running at `http://localhost:3000`!
 
-
 ## 💫 Deploying
 
 Deployments are handled by Netlify.
 * Merging on the staging branch triggers a staging deployment
 * Merging on the master branch triggers a production deployment
 
+
 ## ⏳ Build status 
 
-| branch  | status |
-| ------- | ------ |
-| staging |        |
-| master  |        |
+| branch | status |
+|--------|--------|
+|staging |[Netlify Badge]|
+|master  |[Netlify Badge]|
 
-## Contributors ✨
+## ✨ Contributors
 
 Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
 <!-- prettier-ignore-start -->
 <!-- markdownlint-disable -->
+<table>
+  <tr>
+  
+  </tr>
+</table>
 
 <!-- markdownlint-enable -->
 <!-- prettier-ignore-end -->
