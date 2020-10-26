@@ -16,6 +16,26 @@
       "react-use": "^15.3.2",
       "sanitize.css": "^11.0.1",
       "styled-components": "^5.1.1"
+    },
+    "devDependencies": {
+      "husky": ">=4",
+      "lint-staged": ">=10",
+      "prettier": "^2.1.2"
+    },
+    "scripts": {
+      "prettier": "prettier --write 'src/**/*.js'",
+      "prettier:check": "prettier -l 'src/**/*.js'"
+    },
+    "eslintConfig": {
+      "extends": ["react-app"]
+    },
+    "husky": {
+      "hooks": {
+        "pre-commit": "lint-staged"
+      }
+    },
+    "lint-staged": {
+      "src/**/*.{js,css,md,json}": ["prettier --write", "eslint --fix --rule 'no-console: 2' --rule 'no-debugger: 2'"]
     }
   }
 }
